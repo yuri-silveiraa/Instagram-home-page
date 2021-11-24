@@ -10,7 +10,7 @@
 body {
   width: 100%;
   min-height: 100%;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
   display: flex;
@@ -42,7 +42,7 @@ body {
   justify-content: space-around; /* vertical */
   flex-direction: column;
   width: 50%;
-  min-height: 34rem
+  min-height: 34rem;
 }
 
 .group {
@@ -89,7 +89,7 @@ body {
 }
 
 .not-account {
-  color: rgb(160,160,160);
+  color: rgb(160, 160, 160);
 }
 
 .link-blue {
@@ -129,7 +129,6 @@ body {
 
 /* media queries */
 
-
 @media (max-width: 1024px) {
   .instagram-wrapper {
     width: 90%;
@@ -140,8 +139,8 @@ body {
   body {
     background-color: #ffffff;
   }
-  
-  .instagram-wrapper{
+
+  .instagram-wrapper {
     width: 90%;
   }
 
@@ -154,6 +153,6 @@ body {
   }
 
   .group {
-    border:1px solid transparent;
+    border: 1px solid transparent;
   }
 }
