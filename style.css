@@ -10,7 +10,7 @@
 body {
   width: 100%;
   min-height: 100%;
-  background-color: rgb(133, 67, 14);
+  background-color: rgb(260, 260, 260);
   margin: 0;
   padding: 0;
   display: flex;
@@ -53,7 +53,7 @@ body {
   background-color: #ffffff;
   width: 100%;
   padding: 1.3rem 0;
-  border: 3px solid #f67700;
+  border: 1px solid #f67700;
 }
 
 .group:nth-child(1) {
